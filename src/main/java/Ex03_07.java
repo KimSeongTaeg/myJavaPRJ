@@ -7,7 +7,7 @@ public class Ex03_07 {
 
         b = 200;
 
-        System.out.printf("a의 값 ==> %d \n",a);
-        System.out.printf("b의 값 ==> %f \n",b);
+        System.out.printf("a의 값 ==> %d \n", a);
+        System.out.printf("b의 값 ==> %f \n", b);
     }
 }

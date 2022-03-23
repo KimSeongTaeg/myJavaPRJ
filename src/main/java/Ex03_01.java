@@ -4,7 +4,7 @@ public class Ex03_01 {
 
         System.out.println();
 
-        System.out.printf("%d",100+100);
+        System.out.printf("%d", 100 + 100);
 
     }
 }

@@ -6,7 +6,7 @@ public class Ex03_15 {
 
         str1 = "Java 입니다";
 
-        System.out.printf("%s \n",str1);
-        System.out.printf("%s \n",str2 + str3);
+        System.out.printf("%s \n", str1);
+        System.out.printf("%s \n", str2 + str3);
     }
 }
