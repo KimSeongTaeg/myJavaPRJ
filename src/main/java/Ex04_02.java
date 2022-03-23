@@ -5,19 +5,19 @@ public class Ex04_02 {
         float result2;
 
         result1 = a + b - c;
-        System.out.printf("%d + %d - %d = %d \n",a,b,c,result1);
+        System.out.printf("%d + %d - %d = %d \n", a, b, c, result1);
 
         result1 = a + b * c;
-        System.out.printf("%d + %d * %d = %d \n",a,b,c,result1);
+        System.out.printf("%d + %d * %d = %d \n", a, b, c, result1);
 
         result2 = a * b / (float) c;
-        System.out.printf("%d * %d / %d = %f \n",a,b,c,result2);
+        System.out.printf("%d * %d / %d = %f \n", a, b, c, result2);
 
         mok = c / b;
-        System.out.printf("%d / %d 의 몫은 %d \n",c,b,mok);
+        System.out.printf("%d / %d 의 몫은 %d \n", c, b, mok);
 
         namugi = c % b;
-        System.out.printf("%d / %d 의 나머지는 %d \n",c,b,namugi);
+        System.out.printf("%d / %d 의 나머지는 %d \n", c, b, namugi);
 
     }
 }
