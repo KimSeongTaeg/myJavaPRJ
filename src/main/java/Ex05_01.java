@@ -3,7 +3,7 @@ public class Ex05_01 {
         int a = 99;
 
         if (a < 100) {
-            System.out.printf("100보다 작다 \n");
+            System.out.println("100보다 작다");
         }
     }
 }

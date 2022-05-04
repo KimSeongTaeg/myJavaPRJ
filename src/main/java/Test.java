@@ -11,7 +11,7 @@ public class Test {
         if (a >= 95) {
             System.out.printf("A");
         } else {
-            if (a > 90) {
+            if (a >= 90) {
                 System.out.printf("A-");
             } else {
                 if (a >= 85) {
@@ -29,7 +29,7 @@ public class Test {
                                 if (a >= 65) {
                                     System.out.printf("D");
                                 } else {
-                                    if (a > 60) {
+                                    if (a >= 60) {
                                         System.out.printf("D-");
                                     } else {
                                         System.out.printf("F");

@@ -9,13 +9,13 @@ public class TermTest2 {
         a = s.nextInt();
 
         if ((a % 3 == 0) && (a % 5 == 0)) {
-            System.out.printf("3과 5의 배수를 둘다 만족합니다");
+            System.out.println("3과 5의 배수를 둘다 만족합니다");
         } else if (a % 3 == 0) {
-            System.out.printf("3의 배수 입니다");
+            System.out.println("3의 배수 입니다");
         } else if (a % 5 == 0) {
-            System.out.printf("5의 배수입니다");
+            System.out.println("5의 배수입니다");
         } else {
-            System.out.printf("3과 5의 배수가 아닙니다");
+            System.out.println("3과 5의 배수가 아닙니다");
         }
     }
 }

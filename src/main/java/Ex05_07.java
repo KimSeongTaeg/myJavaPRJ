@@ -4,12 +4,12 @@ public class Ex05_07 {
 
         if (a > 50) {
             if (a < 100) {
-                System.out.printf("50보다 크고 100보다 작다 \n");
+                System.out.println("50보다 크고 100보다 작다");
             } else {
-                System.out.printf("100보다 크다 \n");
+                System.out.println("100보다 크다");
             }
         } else {
-            System.out.printf("50보다 작다");
+            System.out.println("50보다 작다");
         }
     }
 }
