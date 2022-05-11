@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListExam {
@@ -16,6 +17,18 @@ public class ListExam {
 
         for (int i = 0; i < listSize; i++) {
             System.out.println("name : " + list.get(i));
+        }
+
+        for (String name : list) {
+            System.out.println("이름 : " + name);
+        }
+
+        list.forEach(name -> System.out.println("name : " + name));
+
+        Iterator<String> it = list.iterator();
+        while (it.hasNext()) {
+            String name = it.next();
+            System.out.println("이름 : " + name);
         }
     }
 }
