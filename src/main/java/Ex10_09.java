@@ -2,7 +2,7 @@ import java.io.FileInputStream;
 
 public class Ex10_09 {
     public static void main(String[] args) throws Exception {
-        FileInputStream fis = new FileInputStream("/test/test.txt");
+        FileInputStream fis = new FileInputStream("/test/Java.txt");
 
         int ch;
 
