@@ -9,5 +9,6 @@ public class Ex03_07 {
 
         System.out.printf("a의 값 ==> %d \n", a);
         System.out.printf("b의 값 ==> %f \n", b);
+        //
     }
 }
